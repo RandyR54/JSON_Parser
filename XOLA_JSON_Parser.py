@@ -41,11 +41,6 @@ def traverse_json(obj, path=None):
     return value
 
 # Main entry point
-#filename = 'Sierra_Mac_XOLA_Order_data1'
-#filename = 'sierra_mac_xola_2012_01_01_2017_12_01_clean'
-#filename = 'Adventure_Connection_XOLA_Order_data'
-filename = 'adventure_connection_xola_2012_01_01_2017_12_01'
-#filename = 'capacity_and_booking_lead_time'
 
 Fix empty lists in file.  Original file is not modified.
 with open(filename + '.json', 'r') as fp1:
